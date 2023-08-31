@@ -50,7 +50,7 @@ const cardArray = [
     }
 ];
 
-cardArray.sort(() => 0.5 - Math.random()); // "sorts" compares 2 values, then sorts thorugh it. Math random shuffles based on if it's bigger/smaller than 0.5
+cardArray.sort(() => 0.5 - Math.random()); 
 
 const gridDisplay = document.querySelector('#grid');
 const resultDisplay = document.querySelector('#result')
